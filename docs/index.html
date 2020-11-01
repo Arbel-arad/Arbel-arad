@@ -2,38 +2,67 @@
     <html>
         <head>
             <title>spacetime.technology</title>
-            <meta charset="UTF-8"
+            <meta charset="UTF-8"/>
+            <meta name="description" content="test site" />
+            <meta name="author" content="Arbel Arad" />
+            <meta name="keywords" content="HTML, CSS, JavaScript" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <link rel="canonical" href="/">
 
+
+            <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/Arbel-arad/docs/files/favicon/apple-touch-icon-57x57.png" />
+            <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/Arbel-arad/docs/files/favicon/apple-touch-icon-114x114.png" />
+            <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/Arbel-arad/docs/files/favicon/apple-touch-icon-72x72.png" />
+            <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/Arbel-arad/docs/files/favicon/apple-touch-icon-144x144.png" />
+            <link rel="apple-touch-icon-precomposed" sizes="60x60" href="/Arbel-arad/docs/files/favicon/apple-touch-icon-60x60.png" />
+            <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/Arbel-arad/docs/files/favicon/apple-touch-icon-120x120.png" />
+            <link rel="apple-touch-icon-precomposed" sizes="76x76" href="/Arbel-arad/docs/files/favicon/apple-touch-icon-76x76.png" />
+            <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/Arbel-arad/docs/files/favicon/apple-touch-icon-152x152.png" />
+            <link rel="icon" type="image/png" href="/Arbel-arad/docs/files/favicon/favicon-196x196.png" sizes="196x196" />
+            <link rel="icon" type="image/png" href="/Arbel-arad/docs/files/favicon/favicon-96x96.png" sizes="96x96" />
+            <link rel="icon" type="image/png" href="/Arbel-arad/docs/files/favicon/favicon-32x32.png" sizes="32x32" />
+            <link rel="icon" type="image/png" href="/Arbel-arad/docs/files/favicon/favicon-16x16.png" sizes="16x16" />
+            <link rel="icon" type="image/png" href="/Arbel-arad/docs/files/favicon/favicon-128.png" sizes="128x128" />
+            <meta name="application-name" content="&nbsp;"/>
+            <meta name="msapplication-TileColor" content="#FFFFFF" />
+            <meta name="msapplication-TileImage" content="/Arbel-arad/docs/files/favicon/mstile-144x144.png" />
+            <meta name="msapplication-square70x70logo" content="/Arbel-arad/docs/files/favicon/mstile-70x70.png" />
+            <meta name="msapplication-square150x150logo" content="/Arbel-arad/docs/files/favicon/mstile-150x150.png" />
+            <meta name="msapplication-wide310x150logo" content="/Arbel-arad/docs/files/favicon/mstile-310x150.png" />
+            <meta name="msapplication-square310x310logo" content="/Arbel-arad/docs/files/favicon/mstile-310x310.png" />
         </head>
-        <link rel="canonical" href="/">
+
+        <style>
+            .button {
+              border-radius: 0.2em;
+              background-color: rgb(16, 44, 73);
+              color: #afafaf;
+              border: 1px solid #949494;
+              font-weight: bold;
+              padding: 0.1em;
+              cursor: pointer;
+            }
+
+            .center {
+              text-align: center;
+              margin-top: 2em;
+            }
+          </style>
 
 
-        <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/docs/files/favicon/apple-touch-icon-57x57.png" />
-        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/docs/files/favicon/apple-touch-icon-114x114.png" />
-        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/docs/files/favicon/apple-touch-icon-72x72.png" />
-        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/docs/files/favicon/apple-touch-icon-144x144.png" />
-        <link rel="apple-touch-icon-precomposed" sizes="60x60" href="/docs/files/favicon/apple-touch-icon-60x60.png" />
-        <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/docs/files/favicon/apple-touch-icon-120x120.png" />
-        <link rel="apple-touch-icon-precomposed" sizes="76x76" href="/docs/files/favicon/apple-touch-icon-76x76.png" />
-        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/docs/files/favicon/apple-touch-icon-152x152.png" />
-        <link rel="icon" type="image/png" href="/docs/files/favicon/favicon-196x196.png" sizes="196x196" />
-        <link rel="icon" type="image/png" href="/docs/files/favicon/favicon-96x96.png" sizes="96x96" />
-        <link rel="icon" type="image/png" href="/docs/files/favicon/favicon-32x32.png" sizes="32x32" />
-        <link rel="icon" type="image/png" href="/docs/files/favicon/favicon-16x16.png" sizes="16x16" />
-        <link rel="icon" type="image/png" href="/docs/files/favicon/favicon-128.png" sizes="128x128" />
-        <meta name="application-name" content="&nbsp;"/>
-        <meta name="msapplication-TileColor" content="#FFFFFF" />
-        <meta name="msapplication-TileImage" content="/docs/files/favicon/mstile-144x144.png" />
-        <meta name="msapplication-square70x70logo" content="/docs/files/favicon/mstile-70x70.png" />
-        <meta name="msapplication-square150x150logo" content="/docs/files/favicon/mstile-150x150.png" />
-        <meta name="msapplication-wide310x150logo" content="/docs/files/favicon/mstile-310x150.png" />
-        <meta name="msapplication-square310x310logo" content="/docs/files/favicon/mstile-310x310.png" />
+        <body style="background-color: rgb(11, 39, 68)">
+            <div class="center">
+            <button class="button" id="model3">set model 3</button>
+            <button class="button" id="model4">set model 4</button>
+            </div>
+
+            <script>
 
 
 
 
 
-        <body>
+            </script>
 
         </body>
 
